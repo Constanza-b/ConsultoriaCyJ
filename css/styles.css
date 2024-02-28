@@ -1,0 +1,108 @@
+h1 {
+    color: rgb(247, 240, 253)
+}
+
+p {
+    color: rgb(122, 208, 208)
+}
+
+li {
+    color: rgb(196, 210, 196);
+}
+
+.textoImportante {
+    color: rgb(177, 195, 228)
+}
+
+.textoImportante1 {
+    color: rgb(138, 138, 213);
+
+}
+
+a:link {
+    color: rgb(162, 193, 215)
+}
+
+a:visited {
+    color: rgb(150, 178, 197)
+}
+
+h2:hover {
+    background-color: rgb(22, 52, 109);
+    color: rgb(201, 201, 156);
+}
+
+
+/*body {
+    background-image: url("slide-01.jpg");
+    /* Reemplaza 'tu-imagen.jpg' con la ruta de tu imagen */
+/*  background-size: cover;
+    /* Esto hace que la imagen se ajuste a la ventana del navegador
+    background-position: center;
+    /* Esto centra la imagen */
+/* Otras propiedades opcionales: */
+/* background-repeat: no-repeat;
+    /* Esto evita que la imagen se repita 
+    background-attachment: fixed; 
+    Esto fija la imagen de fondo para que no se desplace con el contenido 
+}*/
+
+
+.modulos {
+    float: left;
+    /* Esto hace que los elementos se desplacen a la izquierda y se muestren uno al lado del otro */
+    width: 150px;
+}
+
+.bg-custom {
+   background-color: #E8F6F3;
+}
+
+.consultoria {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #52BE80 !important;
+
+}
+
+.seccion-1 {
+    background-image: url("slide-01.jpg");
+}
+
+.seccion-2 {
+    background-image: url("slide-02.jpg");
+}
+
+.nService {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4c9cc7;
+    padding: 25px;
+}
+
+.tituloIconos {
+    font-weight: 200px;
+    font-size: larger;
+    text-shadow: 2px 2px 5px #398f5e;
+}
+
+.btn-custom:hover {
+    background-color: #7FB3D5 !important;
+    /* Cambiar a tu color personalizado */
+    color: #dfe6eb !important;
+    /* Cambiar el color del texto */
+    /* Agrega cualquier otro estilo deseado */
+
+}
+
+.btn-custom {
+    background-color: white !important;
+    /* Cambiar a tu color personalizado */
+    color: #0a25bf !important;
+    /* Cambiar el color del texto */
+    /* Agrega cualquier otro estilo deseado */
+    border-radius: 7px 7px 7px 7px !important;
+    -moz-border-radius: 7px 7px 7px 7px !important;
+    -webkit-border-radius: 7px 7px 7px 7px !important;
+    border: 1px solid #6ce4f4 !important;
+}
+/*background-image: linear-gradient(to bottom right, #c8e9e4, #e9f7ff );*/
